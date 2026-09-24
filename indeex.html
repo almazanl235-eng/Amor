@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Para ti chiquilla 💖</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- PANTALLA DE BLOQUEO -->
+  <div id="lock-screen" class="lock-wrapper">
+    <div class="lock-card">
+      <div class="heart-badge">💖</div>
+      <h2>Acceso Privado</h2>
+      <p class="sub">Ingresa la contraseña especial para desbloquear.</p>
+      
+      <div class="input-group">
+        <input type="password" id="password-input" placeholder="••••" maxlength="8" autofocus />
+        <button id="unlock-btn" class="btn-primary">Entrar ✨</button>
+      </div>
+      
+      <p id="error-msg" class="error-text">Uuuyy, clave incorrecta... ¡Intenta de nuevo! 👀</p>
+    </div>
+  </div>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <div id="content-screen" class="main-container hidden">
+    
+    <!-- Hero Header -->
+    <header class="hero-card">
+      <span class="tag">Nuestro Espacio</span>
+      <h1>Hola mi amochito <span class="sparkle">✨</span></h1>
+      <p class="hero-desc">
+        De horas en el servicio en la melchor, las caminatas acompañandote a tu casa, las idas al Tec y las largas platicas... a una historia de amor echa realidad
+      </p>
+
+      <!-- Contador de tiempo -->
+      <div class="timer-box">
+        <h3>Tiempo juntos de novios:</h3>
+        <div id="counter" class="counter-grid">
+          <div class="time-unit"><span id="days">0</span><small>Días</small></div>
+          <div class="time-unit"><span id="hours">0</span><small>Horas</small></div>
+          <div class="time-unit"><span id="minutes">0</span><small>Mins</small></div>
+          <div class="time-unit"><span id="seconds">0</span><small>Segs</small></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Widget Sombrilla -->
+    <section class="interactive-card">
+      <div class="umbrella-icon">☂️</div>
+      <div class="umbrella-info">
+        <h3>El Estado de la Sombrilla, Rcuerdas?... jejeje</h3>
+        <p id="umbrella-status">Estatus actual: <strong>En posesión de André (Propiedad casi legal)</strong></p>
+      </div>
+      <button id="umbrella-btn" class="btn-secondary">Intentar devolver sombrilla 🌂</button>
+    </section>
+
+    <!-- CHAT ADAPTADO CON LOS MOMENTOS CLAVE -->
+    <section class="section-block">
+      <h2>💬 El momento donde todo cambió</h2>
+      <div class="chat-mockup">
+        <div class="chat-header">
+          <div class="avatar">K</div>
+          <div>
+            <strong>Mi Niña 💖</strong>
+            <span class="online">23 de marzo de 2026</span>
+          </div>
+        </div>
+        <div class="chat-body">
+          
+          <div class="msg left">
+            <p>yo quisiera un novio como tu que onda contigo</p>
+            <span class="time">9:28 PM</span>
+          </div>
+
+          <div class="msg right">
+            <p>Aaayyy katy enserioo? Es que yo siento que una niña no podría estar conmigo por como soy la vdd</p>
+            <span class="time">9:30 PM ✓✓</span>
+          </div>
+
+          <div class="msg left">
+            <p>hoy hiciste cosas que haria un buen novio... como veniamos en la playa que me llevaras a mi casa a pesar de que te tienes que regresar solo ya tarde</p>
+            <span class="time">9:31 PM</span>
+          </div>
+
+          <div class="msg right">
+            <p>Pero pues es que es diferente sabes tu literal me provocas querer ser diferente contigo</p>
+            <span class="time">9:40 PM ✓✓</span>
+          </div>
+
+          <div class="msg left">
+            <p>especial como ? como mejores amigos?</p>
+            <span class="time">9:49 PM</span>
+          </div>
+
+          <!-- LA CONFESIÓN DE ANDRÉ -->
+          <div class="msg right">
+            <p>Ayyy yaaa katy ya que esto termine como tenga que terminar. Pues es que la vvd tu me gustas y desde siempre desde el primer día que te vi literal fue amor a primera vista lo que senti por ti... y pues ya te lo tenia que decir tarde o temprano.</p>
+            <span class="time">9:58 PM ✓✓</span>
+          </div>
+
+          <div class="msg left">
+            <p>diosmio... como que desde el dia 1 😱</p>
+            <span class="time">10:00 PM</span>
+          </div>
+
+          <!-- REVELACIÓN DE KATY -->
+          <div class="msg left">
+            <p>me llamabas la atención desde antes dr andar con ariel pero como yo sabia que tu nunca ibas a querer una relación dije pues no... joseph sabe desde los inicios que me gustabas JAAJAJAJAJA</p>
+            <span class="time">10:07 PM</span>
+          </div>
+
+          <div class="msg right">
+            <p>Waaaoo la vdd no esperaba que yo te llamara la atención, por que pues tu eres una niña muy hermosa y especial que pues yo nunca pensé que te fueras a fijar en mi la vdd</p>
+            <span class="time">10:09 PM ✓✓</span>
+          </div>
+
+          <!-- DECLARACIÓN MUTUA -->
+          <div class="msg right">
+            <p>No, me hiciste sentir completo por primera vez en mucho tiempo</p>
+            <span class="time">10:26 PM ✓✓</span>
+          </div>
+
+          <div class="msg left">
+            <p>ayyyyyy te quiero muchísimo🫶</p>
+            <span class="time">10:26 PM</span>
+          </div>
+
+          <div class="msg right">
+            <p>Te amo katy, te amo mucho, no sabes que pinché felicidad me da poder decirtelo 🫶</p>
+            <span class="time">10:27 PM ✓✓</span>
+          </div>
+
+          <div class="msg left">
+            <p>tlj que quiero gritar de felicidad sigo en shock! yo tambieeeen 💖</p>
+            <span class="time">10:31 PM</span>
+          </div>
+
+          <div class="msg right">
+            <p>Por que aun que tu no te lo creas estás hermosa katy, siempre me gustó tu forma de ser y el amor que siento hacia ti me provoca ser así contigo ❤️</p>
+            <span class="time">10:40 PM ✓✓</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Línea del tiempo -->
+    <section class="section-block">
+      <h2>📅 Nuestra Línea del Tiempo</h2>
+      <div class="timeline">
+        
+        <div class="timeline-item">
+          <div class="timeline-dot">🏫</div>
+          <div class="timeline-content">
+            <span class="date">Septiembre - Diciembre 2025</span>
+            <h3>El Servicio Social</h3>
+            <p>Aun me acuerdo mucho de mi primer dia en el servicio, esa primera vez que te vi a los ojos es inolvidable, y cuando te acompañaba a tu casa yo era el mas feliz jijijiji</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">🎂</div>
+          <div class="timeline-content">
+            <span class="date">Enero & Febrero 2026</span>
+            <h3>Cumpleaños y Apoyo Mutuo</h3>
+            <p>Celebrar nuestros cumpleaños que aun esta en mi mente ese kinder delice que me regalaste, y empezar con esas largas platicas todos los dias, que dieron paso a que poco a poco nos fueramos juntando mas y mas.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">💖</div>
+          <div class="timeline-content">
+            <span class="date">24 de Marzo de 2026</span>
+            <h3>El Inicio Oficial 👩‍❤️‍👨</h3>
+            <p>El día en que dejamos de darle vuelta al asunto y empezamos nuestra historia juntos formalmente.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">🚗</div>
+          <div class="timeline-content">
+            <span class="date">Abril - Junio 2026</span>
+            <h3>Citas, Tec y Rutina de Acompañarnos</h3>
+            <p>Las idas juntos al Tec, pedir los Didis y la costumbre de estar el uno para el otro todos los días.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">✨</div>
+          <div class="timeline-content">
+            <span class="date">Julio 2026 - Presente</span>
+            <h3>Sumando Momentos</h3>
+            <p>Cada dia amandonos mas y mas, con algunas salidas y sobre todo estando el uno para el otro.</p>
+          </div>
+        </div>
+
+        <!-- Elemento final con desvanecido -->
+        <div class="timeline-item timeline-fade">
+          <div class="timeline-dot dot-glow">⏳</div>
+          <div class="timeline-content content-blur">
+            <span class="date">El futuro...</span>
+            <h3 class="in-progress-text">En proceso... construyendo una vida juntos 🤍</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Tarjeta Especial -->
+    <section class="section-block">
+      <h2>📜 Algo desde mi corazon</h2>
+      <div class="card-letter">
+        <p class="letter-text">
+          "Seis meses podra ser muy poco para muchos, pero cuando se viven como tu y yo los hemos vivido creo que no hace falta mas para estar seguro que quiero estar junto a ti para toda la vida, juntos tu y yo escribiendo una historia llena de mucho amor como desde el primer momento, amandonos para siempre"
+        </p>
+        <span class="signature">— André</span>
+      </div>
+    </section>
+
+    <footer>
+      <p>Página programada con mucho amor por tu amochito 😎</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
